@@ -22,7 +22,7 @@ public class Rank : MonoBehaviour {
     //    GameObject.Find("Rankstate").GetComponent<UILabel>().text = "正在尝试连接树状图设计者";
         if (Instation.Online)
         {
-            string conurl = "server=cdb-gvnacsh7.gz.tencentcdb.com;port=10039;user=root;password=myfork12138;database=UserMDF;Character Set=utf8;Connect TimeOut=3;";
+            string conurl = "server=*;port=*;user=*;password=*;database=UserMDF;Character Set=utf8;Connect TimeOut=3;";
             MySqlConnection con = new MySqlConnection(conurl);
 
             try
@@ -52,7 +52,7 @@ public class Rank : MonoBehaviour {
     {
         if (Instation.Online)
         {
-            string conurl = "server=cdb-gvnacsh7.gz.tencentcdb.com;port=10039;user=root;password=myfork12138;database=UserMDF;Character Set=utf8;Connect TimeOut=3;";
+            string conurl = "server=*;port=*;user=*;password=*;database=UserMDF;Character Set=utf8;Connect TimeOut=3;";
             MySqlConnection con = new MySqlConnection(conurl);
             try
             {
